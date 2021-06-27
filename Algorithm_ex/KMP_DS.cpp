@@ -4,7 +4,7 @@
 using namespace std;
 /****
 / Implement KMP algorithm in DS-version (failure function index starts from 0)
-/ KMP : search for the index that contain string p in t.
+/ KMP : search for the index that contain strings p in t.
 / Complexity : O(m+n) (amortized)
 / strategy : Dynamic Programming (mapping pi to decrease compare counts)
 ****/
